@@ -82,7 +82,7 @@ function Login({ navigation }){
                     </View>
                 </View>
                 <View style={styles.bottomBot}>
-                    <TouchableOpacity  style={[styles.bottomBotB, {backgroundColor: colorPrimary}]} onPress={() => navigation.navigate('Login')}>
+                    <TouchableOpacity  style={[styles.bottomBotB, {backgroundColor: colorPrimary}]} onPress={() => navigation.navigate('BarNavigate')}>
                         <Text style={[styles.bottomBotBText, {color: colorSecundary}]}>Entrar</Text>
                     </TouchableOpacity>
                 </View>

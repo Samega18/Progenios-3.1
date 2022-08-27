@@ -14,7 +14,6 @@ import {
 import styles from './styles';
 
 import { TextInput } from 'react-native-paper';
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 import Icon from 'react-native-vector-icons/Octicons';
 import LoginEnter from '../../assets/initial/register_img.png';
