@@ -12,6 +12,7 @@ import BarNavigate from './BarNavigate';
 // Home
 import Profile from './OtherPages/Home/Profile';
 import MyProfile from './OtherPages/Home/MyProfile';
+import MyAddress from './OtherPages/Home/Address';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,7 @@ function Routes(){
           {/* Home */}
           <Stack.Screen name="Profile" component={Profile}/>
           <Stack.Screen name="MyProfile" component={MyProfile}/>
+          <Stack.Screen name="MyAddress" component={MyAddress}/>
 
         </Stack.Navigator>
       </NavigationContainer>

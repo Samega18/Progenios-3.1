@@ -52,7 +52,7 @@ function Profile(){
                     <View style={styles.bottomBot}>
                         <ButtonProfile iconName={"list"} iconColor={"gray"} Label={"Perfil"} Navi={"MyProfile"}/>
                         <ButtonProfile iconName={"person"} iconColor={"gray"} Label={"Conta"} Navi={"MyProfile"}/>
-                        <ButtonProfile iconName={"md-location"} iconColor={"gray"} Label={"Endereço"} Navi={"MyProfile"}/>
+                        <ButtonProfile iconName={"md-location"} iconColor={"gray"} Label={"Endereço"} Navi={"MyAddress"}/>
                         <ButtonProfile iconName={"school"} iconColor={"gray"} Label={"Escola"} Navi={"MyProfile"}/>
                         <ButtonProfile iconName={"md-flask"} iconColor={"gray"} Label={"Progenios"} Navi={"MyProfile"}/>
                         <ButtonProfile iconName={"help"} iconColor={"gray"} Label={"Ajuda"} Navi={"MyProfile"}/>
