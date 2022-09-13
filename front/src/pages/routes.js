@@ -1,15 +1,17 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 import InitialPage from './initial';
 import Preload from './preload';
 import Login from './login';
 import Register from './register';
+
 import BarNavigate from './BarNavigate';
 
-import {
-  KeyboardAvoidingView,
-} from 'react-native';
+// Home
+import Profile from './OtherPages/Home/Profile';
+import MyProfile from './OtherPages/Home/MyProfile';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,7 +25,13 @@ function Routes(){
           <Stack.Screen name="Initial" component={InitialPage}/>
           <Stack.Screen name="Login" component={Login}/>
           <Stack.Screen name="Register" component={Register}/>
+
           <Stack.Screen name="BarNavigate" component={BarNavigate}/>
+
+          {/* Home */}
+          <Stack.Screen name="Profile" component={Profile}/>
+          <Stack.Screen name="MyProfile" component={MyProfile}/>
+
         </Stack.Navigator>
       </NavigationContainer>
   

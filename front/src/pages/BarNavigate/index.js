@@ -63,17 +63,17 @@ function BarNavigate({ navigation }){
           {screenSelected == 4 && <GeniosCup/>}
 
         </View>
-        <View style={[ styles.barNavigateContainer, { backgroundColor: colorPrimary }]}>
+        <View style={[ styles.barNavigateContainer, { backgroundColor: colorSecundary, borderColor: colorPrimary}]}>
           <IconBar iconName="md-calendar" iconName2="md-calendar-outline" sizeBar={30} colorPrimary="black" change={() =>changeScreen(0)}
-            colorSecundary={colorSecundary} selected={screenSelected} valueSelect={0} sizeBar2={42}/>
+            colorSecundary={colorPrimary} selected={screenSelected} valueSelect={0} sizeBar2={42}/>
           <IconBar iconName="create" iconName2="create-outline" sizeBar={30} colorPrimary="black" change={() => changeScreen(1)}
-            colorSecundary={colorSecundary} selected={screenSelected} valueSelect={1} sizeBar2={42}/>
+            colorSecundary={colorPrimary} selected={screenSelected} valueSelect={1} sizeBar2={42}/>
           <IconBar iconName="home"  iconName2="home-outline" sizeBar={30} colorPrimary="black" change={() => changeScreen(2)}
-            colorSecundary={colorSecundary} selected={screenSelected} valueSelect={2} sizeBar2={42}/>
+            colorSecundary={colorPrimary} selected={screenSelected} valueSelect={2} sizeBar2={42}/>
           <IconBar iconName="book" iconName2="book-outline" sizeBar={30} colorPrimary="black" change={() => changeScreen(3)}
-            colorSecundary={colorSecundary} selected={screenSelected} valueSelect={3} sizeBar2={42}/>
+            colorSecundary={colorPrimary} selected={screenSelected} valueSelect={3} sizeBar2={42}/>
           <IconBar iconName="medal" iconName2="medal-outline" sizeBar={30} colorPrimary="black" change={() => changeScreen(4)}
-            colorSecundary={colorSecundary} selected={screenSelected} valueSelect={4} sizeBar2={42}/>
+            colorSecundary={colorPrimary} selected={screenSelected} valueSelect={4} sizeBar2={42}/>
         </View>
       </View>
     );

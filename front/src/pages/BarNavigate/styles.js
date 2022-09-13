@@ -31,11 +31,12 @@ barNavigateContainer: {
     flexDirection: 'row',
     left: "5%",
     bottom: "3%",
-    width: "90%",
+    width: "89%",
     height: 55,
     borderRadius: 30,
     justifyContent: 'space-evenly',
     alignItems: 'center',
+    borderWidth: 1,
 },
 
 });

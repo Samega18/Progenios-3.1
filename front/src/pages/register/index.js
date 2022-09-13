@@ -16,7 +16,7 @@ import styles from './styles';
 import { TextInput } from 'react-native-paper';
 
 import Icon from 'react-native-vector-icons/Octicons';
-import LoginEnter from '../../assets/initial/register_img.png';
+import RegisterEnter from '../../assets/initial/register_img.png';
 import { useEffect } from 'react/cjs/react.production.min';
 
 function Register({ navigation }){
@@ -62,7 +62,7 @@ function Register({ navigation }){
                         <Text style={[styles.topLeftText, {color: colorSecundary}]}>Cadastrar</Text>
                     </View>
                     <View style={styles.topRight}>
-                        <Image source={LoginEnter} style={styles.topImage}/>
+                        <Image source={RegisterEnter} style={styles.topImage}/>
                     </View>
                 </View>
                 <View style={[styles.bottom, {backgroundColor: colorSecundary}]}>
